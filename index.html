@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pride of Cows/ Checkout</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h1 class="heading">Checkout </h1>
+  <main class="checkout-container">
+    <!-- Summary Section -->
+    <div class="summary-section">
+      <h2>Order Summary</h2>
+
+      <div class="product">
+        <img src="/milk.jpg" alt="Premium Milk Bottle">
+        <div class="product-details">
+          <p class="product-name">Premium Milk Bottle</p>
+          <div class="product-para">Fat free milk</div>
+          <p class="counter" onclick="increse()"> &nbsp x1 &nbsp</p>
+        </div>
+        <p class="product-price" id="milkprice">$5.00</p>
+        <span class="close">x</span>
+      </div>
+
+      <div class="product">
+        <img src="/Paneer.jpg" alt="Paneer">
+        <div class="product-details">
+          <p class="product-name">Paneer</p>
+          <div class="product-para">Soft and delicious</div>
+          <p class="counter" onclick="increse()"> &nbsp x1 &nbsp</p>
+        </div>
+        <p class="product-price" id="paneerPrice">$8.00</p>
+        <span class="close">x</span>
+      </div>
+
+      <div class="product">
+        <img src="/curd.webp" alt="Weekly Subscription">
+        <div class="product-details">
+          <p class="product-name">Curd</p>
+          <div class="product-para">Thick and creamy</div>
+          <p class="counter" onclick="increse()"> &nbsp x1 &nbsp</p>
+        </div>
+        <p class="product-price" id="curdPrice">$10.00</p>
+        <span class="close">x</span>
+      </div>
+
+      <div class="coupon">
+        <input type="text" placeholder="Enter coupon code">
+        <button>Apply Coupon</button>
+      </div>
+
+      <div class="total-section">
+        <div class="subtotal">
+          <p>Subtotal:</p>
+          <p>$33.00</p>
+        </div>
+        <div class="tax">
+          <p>Tax:</p>
+          <p>$3.30</p>
+        </div>
+        <div class="grand-total">
+          <p><strong>Total:</strong></p>
+          <p><strong>$36.30</strong></p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Contact Form Section -->
+    <div class="contact-form">
+      <h2>Contact Information</h2>
+      <input type="text" placeholder="Full Name" required>
+      <input type="email" placeholder="Email Address" required>
+      <input type="text" placeholder="House No, Street Road" required>
+      <input type="text" placeholder="Pin Code" required>
+
+      <button>Place Order</button>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
