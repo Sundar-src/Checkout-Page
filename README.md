@@ -11,6 +11,7 @@ This project is a fully responsive Checkout Page for an e-commerce platform sell
 ## Project Structure
 * `index.html`: Semantic structure for the checkout page.
 * `style.css`: Modern styling, including variables, grid layout, and media queries.
+* `script.js` : added features with javascript fot functionality.
 
 ## Functionality Overview
 * **Responsive Layout**: Designed with media queries to ensure the site looks great on all screen sizes.
