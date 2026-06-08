@@ -23,4 +23,4 @@ This project is a fully responsive Checkout Page for an e-commerce platform sell
   (https://github.com/Sundar-src/Assignment)
 * **Navigate to the project folder**:
   cd Checkout-page
-* Open the `index.html` file in any browser.
+* Open the `index.html` file in any browser. 
